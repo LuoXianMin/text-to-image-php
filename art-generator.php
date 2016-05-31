@@ -19,7 +19,7 @@
 	<div class="row">
 		<div class="col-md-8">
 			<div class="form-group">
-				<form action="bored-2.php" method="POST">
+				<form action="art-generator.php" method="POST">
 					<input class="form-control" type="text" name="string" placeholder="Enter some text" maxlength="100"> <br>
 					<button class="btn btn-default" name="submit">Generate!</button>
 				</form>
@@ -35,10 +35,8 @@
 
 if (isset($_POST['submit']) === true && empty($_POST['submit']) === true && empty($_POST['string']) === false) {
 	
-	// I understand saving this post as is not secure whatsoever but I intend for this to used on your local machine.
-	// Or add security later
 	
-	$string = $_POST['string'];
+	$string = $_POST['string']; // Sanitize this input if you make it public!
 	
 	// Generate Image
 	$image = imagecreate(200, 200);
@@ -66,7 +64,7 @@ if (isset($_POST['submit']) === true && empty($_POST['submit']) === true && empt
 	// Get image file path from $_GET and display it
 	if (isset($_GET['file']) === true && empty($_GET['file']) === false) {
 
-	$image_file = $_GET['file'];
+	$image_file = $_GET['file']; // Sanitize this input if you make it public!
 	
 	echo "
 	<div class='container-fluid' style='margin:0 auto; width: 90%;'>
