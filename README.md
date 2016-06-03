@@ -16,7 +16,7 @@
 <hr>
 
 <h3>Capabilities</h3>
-<p>I'm calling this project a "seed" art-generator because it can be innovated further. You can create reCAPTCHA-esque images for spam prevention or you could generate unique images for users, and so on.</p>
+<p>I'm calling this project a "seed" art-generator because it can be innovated further. You can create reCAPTCHA-esque images for spam prevention, generate unique images for users, store display user emails in a photo to prevent spammers from obtaining this information, and so on.</p>
 
 <h3>How to run this</h3>
 <p>You will need Apache installed on your local machine to run PHP scripts. You can also use CLI. Check out the PHP website because they discuss almost anything you might need.</p>
