@@ -1,3 +1,5 @@
+![alt tag](https://github.com/harmankang/art-generator-php-seed/blob/master/demo.gif)
+
 
 <h1>Basic Art Generator "Seed" Program</h1>
 <p>I built this as a foundation for something that can be taken in almost any direction. It will currently take a string and print it onto an image, which is then stored (in the same folder) and displayed on the webpage using the GET method.</p>
