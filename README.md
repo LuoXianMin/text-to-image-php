@@ -1,4 +1,4 @@
-![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-image/demo-line-breaker.gif)
+![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-images/demo-line-breaker.gif)
 
 
 <h1>Text-to-image converter</h1>
@@ -10,7 +10,7 @@
 <br>
 
 <h3>art-generator.php Demo</h3>
-![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-image/demo.gif)
+![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-images/demo.gif)
 
 <h3>Capabilities</h3>
 <p>Can be used to create reCAPTCHA-esque images for spam prevention, generate unique images for users, store display user emails in a photo to prevent spammers from obtaining this information, and so on.</p>
