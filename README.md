@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-images/demo-line-breaker.gif)
+>>>>>>> d029250f66899bf14da6cff1796bd742087c8f37
 
 
 ![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-images/new-demo-line-breaker.gif)
