@@ -1,14 +1,18 @@
-![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-images/new-demo-line-breaker.gif)
+
 
 
 
 <h1>Text-to-image converter</h1>
 <p>Takes a string and converts it into an image. The script adds line breaks to the string and dynamically adjusts the height depending on the number of lines.</p>
+<br>
+![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-images/new-demo-line-breaker.gif)
+
+<h3>In this project:</h3>
 <p>This project contains the <strong>text-to-image.php</strong> and</p>
 <ul>
 <li>A web demo using the text-to-image.php: <strong>text-to-image-demo.php</strong></li>
 <li>Another demo that adjusts color, art, figures in the image: <strong>art-generator.php</strong></li>
-<li>An example use-case for the project under <em>examples/</em></li>
+<li>An example use--display an email address as an image--under <em>email-example/</em></li>
 </ul>
 
 <h3>How to use:</h3>
