@@ -5,7 +5,7 @@
 <h1>Text-to-image converter</h1>
 <p>Takes a string and converts it into an image. The script adds line breaks to the string and dynamically adjusts the height depending on the number of lines.</p>
 <br>
-![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-images/new-demo-line-breaker.gif)
+<img src="readme-images/new-demo-line-breaker.gif">
 
 <h3>In this project:</h3>
 <p>This project contains the <strong>text-to-image.php</strong> and</p>
@@ -25,12 +25,12 @@
   $image->makeImageFromString($string);
   ````
  <p>The result will look something like this:</p>
-![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-images/example.png)
+<img src="readme-images/example.png">
 
 <br>
 
 <h3>art-generator.php Demo</h3>
-![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-images/demo.gif)
+<img src="readme-images/demo.gif">
 
 <h3>Capabilities</h3>
 <p>Can be used to create reCAPTCHA-esque images for spam prevention, generate unique images for users, store display user emails in a photo to prevent spammers from obtaining this information, and so on.</p>
