@@ -1,38 +1,38 @@
-<<<<<<< HEAD
-=======
-![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-images/demo-line-breaker.gif)
->>>>>>> d029250f66899bf14da6cff1796bd742087c8f37
 
-
-![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-images/new-demo-line-breaker.gif)
 
 
 
 <h1>Text-to-image converter</h1>
 <p>Takes a string and converts it into an image. The script adds line breaks to the string and dynamically adjusts the height depending on the number of lines.</p>
+<br>
+<img src="readme-images/new-demo-line-breaker.gif">
+
+<h3>In this project:</h3>
 <p>This project contains the <strong>text-to-image.php</strong> and</p>
 <ul>
 <li>A web demo using the text-to-image.php: <strong>text-to-image-demo.php</strong></li>
 <li>Another demo that adjusts color, art, figures in the image: <strong>art-generator.php</strong></li>
-<li>An example use-case for the project under <em>examples/</em></li>
+<li>An example use--display an email address as an image--under <em>email-example/</em></li>
 </ul>
 
 <h3>How to use:</h3>
 <p>Include: </p>
 `include 'text-to-image.php';`
 <p>Pass a string through the function:</p>
-  ````
+
+  ```php
   $string = 'Pass strings like this or from a form using POST';
   $image = new image;
   $image->makeImageFromString($string);
-  ````
+  ```
+  
  <p>The result will look something like this:</p>
-![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-images/example.png)
+<img src="readme-images/example.png">
 
 <br>
 
 <h3>art-generator.php Demo</h3>
-![alt tag](https://github.com/harmankang/text-to-image-php/blob/master/readme-images/demo.gif)
+<img src="readme-images/demo.gif">
 
 <h3>Capabilities</h3>
 <p>Can be used to create reCAPTCHA-esque images for spam prevention, generate unique images for users, store display user emails in a photo to prevent spammers from obtaining this information, and so on.</p>
