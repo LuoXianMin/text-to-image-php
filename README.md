@@ -16,8 +16,10 @@
 </ul>
 
 <h3>How to use:</h3>
-<p>Include: </p>
+<p>Include: </p> 
+
 `include 'text-to-image.php';`
+
 <p>Pass a string through the function:</p>
 
   ```php
